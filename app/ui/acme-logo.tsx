@@ -3,7 +3,7 @@ import React from 'react';
 
 const Bunker404Logo: React.FC = () => {
   return (
-    <div className="flex items-center bg-purple-800 px-4 py-2 w-fit rounded">
+    <div className="flex items-center bg-purple-1000 px-0 py-2 w-fit rounded">
       {/* BUNKER vertical */}
       <div className="bg-white text-black font-bold text-l px-0.2 py-8 flex flex-col justify-center items-center">
         <span className="-rotate-90 tracking-widest">BUNKER</span>
