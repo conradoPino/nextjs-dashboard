@@ -1,13 +1,19 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+// components/Bunker404Logo.tsx
+import React from 'react';
 
-export default function AcmeLogo() {
+const Bunker404Logo: React.FC = () => {
   return (
-    <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
-    >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+    <div className="flex items-center bg-purple-800 px-4 py-2 w-fit rounded">
+      {/* BUNKER vertical */}
+      <div className="bg-white text-black font-bold text-l px-0.2 py-8 flex flex-col justify-center items-center">
+        <span className="-rotate-90 tracking-widest">BUNKER</span>
+      </div>
+      {/* 404 horizontal */}
+      <div className="text-white font-extrabold text-6xl ml-2">
+        404
+      </div>
     </div>
   );
-}
+};
+
+export default Bunker404Logo;
